@@ -36,7 +36,10 @@ src: directorio de código
 <p>Para la realización de la PEC se ha utilizado un entorno virtual en el
 que se han cargado los paquetes utilizados. Para replicar dicho entorno 
 de trabajo, todos los paquetes necesarios están disponibles en el 
-archivo requeriments.txt</p>
+archivo requeriments.txt. Se recomienda la instalación de los mismos 
+paquetes para evitar incompatibilidades. Para ello, desde el directorio
+PEC4 ejecute el siguiente comando desde la terminal:</p>
+> pip install -r requeriments.txt
 
 <h3>Ejecucción código</h3>
 <p>Atención: la estructura de directorios proporcionada no contiene ningún
