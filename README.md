@@ -39,6 +39,15 @@ de trabajo, todos los paquetes necesarios están disponibles en el
 archivo requeriments.txt</p>
 
 <h3>Ejecucción código</h3>
+<p>Atención: la estructura de directorios proporcionada no contiene ningún
+fichero en los directorios data/interim ni data/processed puesto que son
+creados mediante el código. El script utiliza la función clean_csv_data() 
+de src/build_features.py que en cada ejecucción del código elimina todos
+los archivos previamente creados. Por tanto, si se desea ejecutar varias
+veces el script, se deben tener los permisos del sistema necesarios para
+permitir que la función clean_csv_data() limpie dichos directorios. De otro
+modo se producirá un error durante la ejecucción.</p>
+
 <p>Para ejecutar el código correctamente, se debe situar en el directorio
 PEC4 y desde la terminal ejecutar el siguiente comando:</p>
 > python3 main.py
